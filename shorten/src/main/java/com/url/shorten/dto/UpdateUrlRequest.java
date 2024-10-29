@@ -7,5 +7,5 @@ import lombok.Setter;
 @Setter
 public class UpdateUrlRequest {
     private String customAlias;
-    private int ttl;
+    private String originalUrl;
 }

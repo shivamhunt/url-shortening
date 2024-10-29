@@ -9,7 +9,7 @@ import java.util.Map;
 
 @SpringBootApplication
 public class ShortenApplication {
-	public   Map<String, UrlInfo> urlMap = new HashMap<>();
+//	public   Map<String, UrlInfo> urlMap = new HashMap<>();
 
 	public static void main(String[] args) {
 		SpringApplication.run(ShortenApplication.class, args);
